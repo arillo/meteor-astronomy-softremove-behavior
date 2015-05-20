@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Softremove behavior for Meteor Astronomy',
-  version: '0.0.2',
+  version: '0.0.1',
   name: 'arillo:astronomy-softremove-behaviour',
   git: 'https://github.com/arillo/meteor-astronomy-softremove-behavior.git'
 });
@@ -13,6 +13,5 @@ Package.onUse(function(api) {
 
   // Behavior.
   api.addFiles('lib/behavior/methods.js', ['client', 'server']);
-  api.addFiles('lib/behavior/events.js', ['client', 'server']);
   api.addFiles('lib/behavior/behavior.js', ['client', 'server']);
 });
