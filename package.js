@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Softremove behavior for Meteor Astronomy',
-  version: '0.0.3',
+  version: '0.0.4',
   name: 'arillo:astronomy-softremove-behavior',
   git: 'https://github.com/arillo/meteor-astronomy-softremove-behavior.git'
 });
